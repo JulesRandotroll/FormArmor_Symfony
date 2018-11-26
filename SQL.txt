@@ -1,0 +1,7 @@
+Règles : 
+Une fois mise à jour de la BDD faite, penser à rajouter le champ : "MAJ+date" à la fin
+Pour spécifier que les changements de BDD ont bien été faits.
+
+Date : 26/11/2018
+INSERT INTO `formarmor`.`statut` (`id`, `type`, `taux_horaire`) VALUES (NULL, 'Administrateur', '0');
+UPDATE `formarmor`.`client` SET `statut_id` = '6' WHERE `client`.`id` = 1;
